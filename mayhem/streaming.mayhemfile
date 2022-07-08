@@ -1,0 +1,7 @@
+project: unicode-normalization
+target: streaming
+
+cmds:
+  - cmd: /streaming
+  - cmd: /streaming_no_inst @@
+    libfuzzer: false
