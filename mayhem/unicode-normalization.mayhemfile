@@ -1,0 +1,7 @@
+project: unicode-normalization
+target: unicode-normalization
+
+cmds:
+  - cmd: /unicode-normalization
+  - cmd: /unicode-normalization_no_inst @@
+    libfuzzer: false
